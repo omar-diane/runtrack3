@@ -8,6 +8,9 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div id="message"></div>
+    <article id="citation">
+        La vie a beaucoup plus d'imagination que nous
+    </article>
+    <button id="button">Clique ici</button>
 </body>
 </html>

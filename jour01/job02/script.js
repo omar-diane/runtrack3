@@ -1,1 +1,3 @@
-window.alert('Hello Javascript!');
+const message = document.getElementById('message');
+
+message.alert('let see')
