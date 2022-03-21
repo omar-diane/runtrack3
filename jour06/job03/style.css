@@ -1,0 +1,10 @@
+body .section {
+    background-color: #88c1d0;
+    margin: 5px;
+    width: 250px;
+    height: 100px;
+}
+
+@media screen and (min-width: 1600px) {
+    
+}
