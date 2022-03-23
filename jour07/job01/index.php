@@ -11,33 +11,31 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">LPTF</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Unit</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Jobs
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Skills</a>
-        </li>
-      </ul>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        <a class="nav-link" href="#">Units</a>
+        <a class="nav-link" href="#">Jobs</a>
+        <a class="nav-link disabled">Skills</a>
+      </div>
     </div>
   </div>
 </nav>
    <div class="container">
-   <h1>Salut les gens</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos earum iusto consequatur? Molestiae eos dolorum odit rem. Commodi, vero possimus! Odit expedita neque, quibusdam vitae dolorum quod. Tempore, quos?</p>
+   <h1 class="display-6">La Plateforme_</h1>
    </div>
+   <div class="card" style="width: 18rem;">
+   <img src="" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Un papillon</h5>
+    <p class="card-text">Un papillon, c'est un peu comme une chenille, mais avec des ailes. Ne pas ingerer.</p>
+    <a href="#" class="btn btn-primary">Commander votre propre papillon</a>
+  </div>
+</div>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
