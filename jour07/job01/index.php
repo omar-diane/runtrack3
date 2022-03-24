@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOOTSTRAP - Job 1</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
@@ -24,9 +25,9 @@
     </div>
   </div>
 </nav>
-   <div class="container">
+<section>
+   <div class="container-fluid">
    <h1 class="display-6">La Plateforme_</h1>
-   </div>
    <div class="card" style="width: 18rem;">
    <img src="" alt="">
   <div class="card-body">
@@ -35,6 +36,28 @@
     <a href="#" class="btn btn-primary">Commander votre propre papillon</a>
   </div>
 </div>
+<div>
+  <h1 class="display-6">Bonjour, monde!</h1>
+  <p>
+    Il existe plusieurs visions du terme :
+    le monde est la matière, l'espace et les phénomènes qui nous sont accessibles par les sens, l'expérience ou la raison.
+    Le sens le plus courant désigne notre planète, la Terre, avec ses habitants, et son environnement plus ou moins naturel. 
+  </p>
+</div>
+<ul class="list-group">
+  <li class="list-group-item active" aria-current="true">Limbe</li>
+  <li class="list-group-item">Luxure</li>
+  <li class="list-group-item">Gourmandise</li>
+  <li class="list-group-item">Avarice</li>
+  <li class="list-group-item">Colere</li>
+  <li class="list-group-item">Heresie</li>
+  <li class="list-group-item">Violence</li>
+  <li class="list-group-item">Ruse et tromperie</li>
+  <li class="list-group-item">Trahison</li>
+  <li class="list-group-item">Internet explorer</li>
+</ul>
+</div>
+</section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
