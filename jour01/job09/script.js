@@ -1,15 +1,31 @@
-let numbers = [1, 2, 3, 4, 5];
+let numbers = [5, 3, 1, 4, 2, 6, 8, 10, 7, 9];
 let order = 'asc';
 
-function tri(numbers, order) {
-    for (let i=0; i < numbers.lenght; i++){
-        for (let j=0; j < (numbers.lenght -j -1); j++){
-            if(arr[j] > arr[j+1]){
-                var temp = numbers[j]
-                numbers[j] = numbers[j + 1]
-                numbers[j+1] = temp
+function tri ( numbers , order) {
+    if( order == 'asc'){
+        for(let i = 0; i < numbers.length ; i++ ){
+            for(let i = 0; i < numbers.length - 1 ; i++){
+                if(numbers[i] > numbers[i+1]){
+                    var alias = numbers [i+1]
+                    numbers [i+1] =  numbers [i]
+                    numbers [i]  = alias
+                }
             }
         }
+        return numbers
+    } else if (order == 'desc') {
+        for (let i = 0; i < numbers.length; i++) {
+            for (let i = 0; i < numbers.length - 1; i++) {
+                if (numbers[i] < numbers[i + 1]) {
+                    var alias = numbers [i + 1]
+                    numbers [i + 1] = numbers [i]
+                    numbers [i] = alias
+                }
+            }
+        }
+        return numbers
     }
-    console.log(numbers);
 }
+
+let check = tri(numbers,order);
+console.log(check)
